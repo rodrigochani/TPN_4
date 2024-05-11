@@ -11,7 +11,7 @@ echo "Ingrese la duración del script en segundos:"
 read duration
 
 # Define la ruta absoluta de salida del archivo CSV en Windows, usando la ruta completa de Windows
-csv_path='C:\\Users\\rodri\\Documents\\Gulich\\MAIE\\Cursos\\Introducción a las técnicas inteligentes de resolución de problemas de planificación, secuenciación y ejecución\\Semana 2\\Clase 4\\Práctico\\TPN_4\\network_stats.csv'
+csv_path='C:\\...\\TPN_4\\network_stats.csv' # Cambiar "..." a dirección absoluta de Windows correspondiente
 
 # Hora de inicio (en segundos)
 start_time=$(date +%s)
