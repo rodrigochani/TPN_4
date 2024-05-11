@@ -26,11 +26,13 @@ Para ejecutar cualquiera de los scripts, navega al directorio del script y ejecu
 
 bash <script_name>.sh
 
-## Contribuciones
-Las contribuciones a este proyecto son bienvenidas. Por favor, crea un fork del repositorio y realiza tus cambios. Puedes abrir un pull request para que tus cambios sean revisados e incorporados en el proyecto principal.
 Desde WSL, navega a través de la carpeta /mnt/c/ al directorio del script, alojada en el root y ejecuta:
 
 bash <script_name>.sh o simplemente ./<script_name>.sh
+
+## Contribuciones
+Las contribuciones a este proyecto son bienvenidas. Por favor, crea un fork del repositorio y realiza tus cambios. Puedes abrir un pull request para que tus cambios sean revisados e incorporados en el proyecto principal.
+
 
 
 
