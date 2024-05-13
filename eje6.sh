@@ -11,6 +11,12 @@
 echo "Por favor, introduce el sueldo del empleado como un entero:"
 read sueldo
 
+# Verificar que el sueldo no sea decimal
+if ! [[ "$sueldo" =~ ^-?[0-9]+$ ]]; then
+    echo "El sueldo no es un entero. Vuelva a intentarlo."
+    exit 1
+fi
+
 # Verificar que el sueldo no sea cero antes de proceder
 if [ "$sueldo" == "0" ]; then
     echo "El sueldo no puede ser 0. Vuelva a intentarlo."
@@ -29,7 +35,7 @@ fi
 
 # Calcular la asignación basándose en el rango
 case $rango in
-    1)
+    1)  
         asignacion=$((sueldo * 83 / 100)) 
         ;;
     2)
