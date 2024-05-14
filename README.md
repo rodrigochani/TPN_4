@@ -1,4 +1,4 @@
-# Guía de Ejercicios de Bash Scripting
+# Guía de ejercicios de Bash Scripting
 
 Este repositorio contiene soluciones a una serie de ejercicios diseñados para mejorar la habilidad en el uso de scripts de Bash y control de versiones con Git. Cada script realiza una tarea específica descrita en la guía de ejercicios.
 
